@@ -1,11 +1,12 @@
 import React from 'react'
 
 function Games(props) {
-    const random = Math.random() * props.games.length
-    console.log(random, Math.round(random))
+    const random = Math.round(Math.random() * props.games.length)
+    
     return (
      <div>
-         {/* <iframe src={props.games[random].src} title="Be a big fish in a small pond." width='100%'height={'500vh'} ></iframe> */}
+        <h2>{props.games[random].title} </h2>
+          <iframe src={props.games[random].src} title={props.games[random].title} width='100%'height={'500vh'} ></iframe> 
      </div>
   )
 }
