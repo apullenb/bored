@@ -1,8 +1,8 @@
 import React from 'react'
 
 function Games(props) {
-    const random = Math.round(Math.random() * props.games.length)
-    
+    const random = Math.floor(Math.random() * props.games.length)
+    console.log(random)
     return (
      <div>
         <h2>{props.games[random].title} </h2>
