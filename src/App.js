@@ -1,6 +1,5 @@
-
 import data from './data.json'
-import './App.scss';
+import './App.css';
 import Games from './Games';
 import Category from './Category';
 
