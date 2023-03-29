@@ -6,14 +6,14 @@ import Category from './Category';
 function App() {
   return (
     <div>
-      <div>
+      <div className='head'>
          <h1>Bored</h1>
       </div>
       <div>
         <Games games={data.games} />
       </div>
-      <div>
-        {data.categories.map((cat, i) => <div className='card shadow'> <Category data={cat} key={i} /> </div> )}
+      <div className='container'>
+        {data.categories.map((cat, i) => <Category data={cat} key={i} /> )}
       </div>
     </div>
   );
