@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <div>
-         <h1>Bored</h1>
+         <h1>Welcome to Bored</h1>
       </div>
       <div>
         <Games games={data.games} />
