@@ -13,7 +13,7 @@ function App() {
         <Games games={data.games} />
       </div>
       <div>
-        {data.categories.map((cat, i) => <Category data={cat} key={i} /> )}
+        {data.categories.map((cat, i) => <div className='card shadow'> <Category data={cat} key={i} /> </div> )}
       </div>
     </div>
   );

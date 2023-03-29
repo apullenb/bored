@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function Category(props) {
   return (
-    <h2>{props.data.name}</h2>
-  )
+    <div className="card shadow">
+      <div className="card-header">
+        <h2>{props.data.name}</h2>
+      </div>
+    </div>
+  );
 }
 
-export default Category
+export default Category;
