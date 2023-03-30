@@ -4,6 +4,7 @@ import Games from './Games';
 import Category from './Category';
 
 function App() {
+     //  "https://www.boredapi.com/api/",
   return (
     <div className='main'>
       <div className='header mb-5'>
@@ -13,7 +14,7 @@ function App() {
         <Games games={data.games} />
       </div>
       <div className='section'>
-        {data.categories.map((cat, i) => <div className='column'> <Category data={cat} key={i} /> </div> )}
+        {data.categories.map((cat, i) => <Category data={cat} key={i} />  )}
       </div>
     </div>
   );

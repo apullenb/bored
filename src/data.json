@@ -1,3 +1,5 @@
+
+
 {
     "games": [
         {
@@ -35,7 +37,6 @@
         }
     ],
     "categories": [
-         "https://www.boredapi.com/api/",
         {
             "title": "Learn",
             "subtitle": "",
