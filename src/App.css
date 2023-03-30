@@ -10,6 +10,13 @@ body {
     padding: 1% 2%;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(4, 76, 82);
+    color: white;
+    
+}
 h1 {
     
 }
