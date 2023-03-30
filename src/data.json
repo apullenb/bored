@@ -3,11 +3,6 @@
 {
     "games": [
         {
-            "title": "Polka Dot",
-            "src": "https://www.polkadotgame.com",
-            "description": "Eat the Smaller Dots, Avoid the bigger dots"
-        },
-        {
             "title": "Rock Paper Scissors",
             "src": "https://www.rock-paper-scissors-game.com"
         },

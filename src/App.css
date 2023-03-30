@@ -1,22 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Unbounded:wght@200;400;500;700;800;900&display=swap');
 
 
 body {
-    background-color: rgb(5, 130, 139);
+    background-color: #00798C;
 }
 
 .main {
-    background-color: rgba(243, 238, 232, 0.797);
-    margin: 0.5% 15%;
-    padding: 1% 2%;
+    margin: 0 14%;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(4, 76, 82);
-    color: white;
-    
+    border-bottom: 3px groove coral;
+    text-align: center;
 }
 h1 {
-    
+   
+    text-shadow: 4px 3px 1px coral;
+    font-family: 'Rampart One', cursive;
+    font-size: 7rem;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+
+.header h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: "unbounded";
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3%;
+    margin: 3% 0; 
+}
+
+.box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black ;
+    border-radius: 8px;
+    outline: 3px solid coral;
+}
+
+.box-1 {
+    flex: 1;
+    transform: rotate(-3deg);
+}
+
+.box-2 {
+    flex: 1;
+    transform: rotate(1deg);
 }
