@@ -1,7 +1,8 @@
 {
   "name": "bored-app",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://apullenb.github.io/bored",
+  "private": false,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
