@@ -1,19 +1,65 @@
- {
+{
     "games": [
-        {"title": "Polka Dot", "src": "https://www.polkadotgame.com", "description":"Eat the Smaller Dots, Avoid the bigger dots"},
-        {"title": "Rock Paper Scissors", "src": "https://www.rock-paper-scissors-game.com"},
-        {"title": "Bubble Pop", "src": "https://bubblespop.netlify.app", "description":"Pop the Bubbles"},
-        {"title": "Space Alpaca", "src": "https://www.astroalpaca.com/", "description":"Eat the Food, Avoid the Debris"},
-        {"title": "Insert the Coin", "src": "https://projects.playables.net/coin/", "description":"Drag the coin and drop it into the slot"},
-        {"title": "The 100m Scroll", "src": "https://the100meterscroll.com/", "description":"See how fast you can scroll 100 meters"},
-        {"title": "Card Trick", "src": "https://www.crazycardtrick.com"}
+        {
+            "title": "Polka Dot",
+            "src": "https://www.polkadotgame.com",
+            "description": "Eat the Smaller Dots, Avoid the bigger dots"
+        },
+        {
+            "title": "Rock Paper Scissors",
+            "src": "https://www.rock-paper-scissors-game.com"
+        },
+        {
+            "title": "Bubble Pop",
+            "src": "https://bubblespop.netlify.app",
+            "description": "Pop the Bubbles"
+        },
+        {
+            "title": "Space Alpaca",
+            "src": "https://www.astroalpaca.com/",
+            "description": "Eat the Food, Avoid the Debris"
+        },
+        {
+            "title": "Insert the Coin",
+            "src": "https://projects.playables.net/coin/",
+            "description": "Drag the coin and drop it into the slot"
+        },
+        {
+            "title": "The 100m Scroll",
+            "src": "https://the100meterscroll.com/",
+            "description": "See how fast you can scroll 100 meters"
+        },
+        {
+            "title": "Card Trick",
+            "src": "https://www.crazycardtrick.com"
+        }
     ],
-    "categories":[
-        {"name": "Learn Something"},
-        {"name": "Make Something"},
-        {"name": "Cook Something"},
-        {"name": "Benefit from Something"}
+    "categories": [
+         "https://www.boredapi.com/api/",
+        {
+            "title": "Learn",
+            "subtitle": "",
+            "icon": "",
+            "type": "education"
+        },
+        {
+            "title": "Create",
+            "subtitle": "",
+            "icon": "",
+            "endpoint": "diy"
+        },
+        {
+            "title": "Cook",
+            "subtitle": "",
+            "icon": "",
+            "type": "cooking"
+        },
+       
+        {
+            "title": "Relax",
+            "subtitle": "Self-Care Activities",
+            "icon": "",
+            "type": "relaxation"
+        }
     ]
-        
-    
 }
