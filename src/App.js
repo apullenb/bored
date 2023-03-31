@@ -9,9 +9,9 @@ function App() {
     <div className="main">
       <div className="header pb-3">
         <h1>Productively Bored</h1>
-        <h2>Time Well Wasted</h2>
+        <h2>Your Time Well Wasted</h2>
       </div>
-      <div className="content">
+      <div className="content mt-4 pb-4">
         <h5>Boredom & The Paradox of Choice</h5>
         <p>
         Having too many options, known as the Paradox of Choice, can cause boredom when decision fatigue and FOMO (Fear of Missing Out) kick in. Limiting your options can help overcome this, and that is the purpose of this website! Just choose a category and an activity will be randomly selected for you, making it easy to enjoy a fun new experience!
@@ -23,7 +23,7 @@ function App() {
           <Category data={cat} key={i} />
         ))}
       </div>
-      <div className="box-row pb-3">
+      <div className="box-row pb-3 pt-4">
         <div>
           <h4 style={{paddingLeft:'5%'}}>Random Mini Game</h4>
           <Games games={data.games} />
