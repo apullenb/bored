@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import activities from './activities.json'
 
 function Category(props) {
   return (
@@ -8,7 +9,8 @@ function Category(props) {
         <h3>{props.data.title}</h3>
       </div>
       <div className="box-body">
-        <h4>{props.data.subtitle}</h4>
+       <p>{props.data.subtitle}</p>
+       <button></button>
       </div>
     </Box>
   );

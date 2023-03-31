@@ -4,7 +4,8 @@
     "games": [
         {
             "title": "Rock Paper Scissors",
-            "src": "https://www.rock-paper-scissors-game.com"
+            "src": "https://www.rock-paper-scissors-game.com",
+            "description": "Make Your Selection"
         },
         {
             "title": "Bubble Pop",
@@ -34,28 +35,42 @@
     "categories": [
         {
             "title": "Learn",
-            "subtitle": "",
+            "subtitle": "Fun Ways to Expand Your Mind",
             "icon": "",
             "type": "education"
         },
         {
             "title": "Create",
-            "subtitle": "",
+            "subtitle": "Simple DIY Projects and Crafts",
             "icon": "",
             "endpoint": "diy"
         },
         {
             "title": "Cook",
-            "subtitle": "",
+            "subtitle": "Try Out a New & Easy Recipe",
             "icon": "",
             "type": "cooking"
         },
        
         {
             "title": "Relax",
-            "subtitle": "Self-Care Activities",
+            "subtitle": "Low-energy and Calming Activities",
             "icon": "",
             "type": "relaxation"
+        },
+       
+        {
+            "title": "Improve",
+            "subtitle": "Important Tasks You've Been Avoiding",
+            "icon": "",
+            "type": "busywork"
+        },
+       
+        {
+            "title": "Connect",
+            "subtitle": "Activites to Help You Connect with Others",
+            "icon": "",
+            "type": "busywork"
         }
     ]
 }
