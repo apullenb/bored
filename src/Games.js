@@ -1,14 +1,20 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
 
 function Games(props) {
     const random = Math.floor(Math.random() * props.games.length)
     console.log(random)
     return (
-     <div className=''>
+     <Game>
         <h3>{props.games[random].title} </h3>
           <iframe src={props.games[random].src} title={props.games[random].title} ></iframe> 
-     </div>
+     </Game>
   )
 }
 
-export default Games
+export default Games;
+
+const Game = styled.div`
+min-width: 65%;
+
+`

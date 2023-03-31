@@ -11,19 +11,15 @@ function App() {
         <h1>Productively Bored</h1>
         <h2>Make Your Time Well Wasted</h2>
       </div>
-      <div className="row">
-        <div className="box box-1">
-          <h3>Dumb Joke of the Day</h3>
-        </div>
-        <div className="box box-2">
-          <Games games={data.games} />
-        </div>
-      
-      </div>
-      <div className="row">
+      <div className="box-row">
         {data.categories.map((cat, i) => (
           <Category data={cat} key={i} />
         ))}
+      </div>
+      <div className="box-row">
+        <div className="box">
+          <Games games={data.games} />
+        </div>
       </div>
     </div>
   );
