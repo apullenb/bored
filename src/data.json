@@ -47,7 +47,7 @@
         },
         {
             "title": "Cook",
-            "subtitle": "Try Out a New & Easy Recipe",
+            "subtitle": "Learn New and Simple Recipes",
             "icon": "",
             "type": "cooking"
         },
@@ -68,7 +68,7 @@
        
         {
             "title": "Connect",
-            "subtitle": "Activites to Help You Connect with Others",
+            "subtitle": "Activites to Help You Engage with Others",
             "icon": "",
             "type": "busywork"
         }

@@ -8,9 +8,9 @@ function Category(props) {
       <div className="box-header">
         <h3>{props.data.title}</h3>
       </div>
-      <div className="box-body">
+      <div className="box-content pb-2">
        <p>{props.data.subtitle}</p>
-       <button></button>
+       <button>Find Activities</button>
       </div>
     </Box>
   );
@@ -21,4 +21,5 @@ export default Category;
 const Box = styled.div`
   display: flex;
   flex-direction: column;
+  align-content: center;
 `

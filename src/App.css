@@ -8,16 +8,33 @@ body {
 .main {
     margin: 0 13%;
 }
+.content {
+    background-color: coral; 
+  padding: 1%; 
+  border-radius: -10px; 
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); 
+  font-size: 1.2em; 
+  margin: 1% 17%;
+  text-align: left;
+}
+.content h5 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: .5% 2%;
+}
+.content p {
+    margin: .5% 2%;
+}
 
 .header {
     border-bottom: 3px solid coral;
     text-align: center;
 }
 h1 {
-    text-shadow: 4px 3px 1px coral;
+    text-shadow: 3px 3px 1px coral;
     font-family: 'Rampart One', cursive;
     font-size: 5.9rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .header h2 {
@@ -39,19 +56,20 @@ h1 {
     background-color: white;
     display: flex;
     flex-direction: column;
+    align-content: center;
     border: 2px solid black ;
     border-radius: 8px;
     box-shadow: 5px 8px 1px rgb(252, 125, 79);
     padding: .5% 1%;
     min-width: 225px;
-    margin: 2% 2.5%;
+    margin: 2% 4%;
 }
 
-p {
+.box p {
     font-size: 22px;
     font-weight: 500;
     text-align: center;
-    margin: 0 3%;
+    margin: 2% 1.75%;
 }
 .box-1 {
     transform: rotate(-1.5deg);
@@ -66,6 +84,15 @@ p {
     transform: rotate(-1.5deg);
 }
 
+button {
+    background-color: coral;
+    padding: 1% 5%;
+    margin: 2% 23%;
+    font-size: 19px;
+    font-weight: 500;
+    border: 1px solid black;
+    box-shadow: 2px 3px 1px gray;
+}
 h3 {
     padding: 0 3%;
     border-bottom: 2px solid coral ;
