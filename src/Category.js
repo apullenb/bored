@@ -3,13 +3,12 @@ import styled from "styled-components";
 
 function Category(props) {
   return (
-    <Box className="card shadow">
-      <div className="card-header">
-        
-        <h2>{props.data.title}</h2>
+    <Box className="box box-2">
+      <div className="box-header">
+        <h3>{props.data.title}</h3>
       </div>
-      <div className="card-body">
-        <h3>{props.data.subtitle}</h3>
+      <div className="box-body">
+        <h4>{props.data.subtitle}</h4>
       </div>
     </Box>
   );

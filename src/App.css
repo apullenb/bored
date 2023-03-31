@@ -42,7 +42,8 @@ h1 {
     flex-direction: column;
     border: 2px solid black ;
     border-radius: 8px;
-    outline: 3px solid coral;
+    box-shadow: 5px 8px 1px rgb(252, 125, 79);
+    padding: .5% 2%;
 }
 
 .box-1 {
@@ -53,4 +54,10 @@ h1 {
 .box-2 {
     flex: 1;
     transform: rotate(1deg);
+}
+
+h3 {
+    padding-bottom: 2%;
+    border-bottom: 2px solid coral ;
+    font-size: 35px;
 }

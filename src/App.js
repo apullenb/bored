@@ -12,10 +12,10 @@ function App() {
         <h2>Make Your Time Well Wasted</h2>
       </div>
       <div className="row">
-        <div className="box box-1 shadow">
+        <div className="box box-1">
           <h3>Dumb Joke of the Day</h3>
         </div>
-        <div className="box box-2 shadow">
+        <div className="box box-2">
           <Games games={data.games} />
         </div>
       
