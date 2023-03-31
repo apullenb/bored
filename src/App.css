@@ -6,7 +6,7 @@ body {
 }
 
 .main {
-    margin: 0 14%;
+    margin: 0 13%;
 }
 
 .header {
@@ -14,26 +14,24 @@ body {
     text-align: center;
 }
 h1 {
-   
     text-shadow: 4px 3px 1px coral;
     font-family: 'Rampart One', cursive;
-    font-size: 7rem;
+    font-size: 5.8rem;
     font-weight: 500;
-    margin-bottom: 1%;
 }
 
 .header h2 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     font-weight: 700;
     font-family: "unbounded";
 }
 
 .box-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 3%;
-    margin: 3% 0; 
-    width: 100%;
+    margin: 2% 0; 
+    border-bottom: 3px solid coral;
 }
 
 .box {
@@ -43,21 +41,52 @@ h1 {
     border: 2px solid black ;
     border-radius: 8px;
     box-shadow: 5px 8px 1px rgb(252, 125, 79);
-    padding: .5% 2%;
+    padding: .5% 1%;
+    min-width: 175px;
+    margin: 2% 1%;
 }
 
 .box-1 {
-    flex: 1;
     transform: rotate(-3deg);
+    flex: 2;
 }
 
 .box-2 {
-    flex: 1;
+    flex: 2;
     transform: rotate(1deg);
 }
 
 h3 {
-    padding-bottom: 2%;
+    padding: 0 3%;
     border-bottom: 2px solid coral ;
-    font-size: 35px;
+    font-size: 30px;
 }
+
+
+@media screen and (max-width: 1145px) {
+    .main {
+        margin: 0 9%;
+    }
+    .box-2 {
+        margin: 2% 6%;
+    }
+  }
+  
+  @media screen and (max-width: 904px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    .header h2 {
+        font-size: 1.7rem;
+    }
+    .box-row {
+        flex-direction: column;
+    }
+    .box-2 {
+        margin: 2% 10%;
+    }
+    .main {
+        margin: 0 3%;
+    }
+  }
