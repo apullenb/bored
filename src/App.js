@@ -14,9 +14,10 @@ function App() {
       <div className="content">
         <h5>Boredom & The Paradox of Choice</h5>
         <p>
-        Having too many options, known as the Paradox of Choice, can lead to decision fatigue and FOMO (Fear of Missing Out) - which is when boredom kicks in. To overcome this, it's important to focus on meaningful activities and limit your options, and that is the purpose of this website! Just choose a category, and an activity will be randomly selected for you, making it easy to enjoy a fun new experience!
+        Having too many options, known as the Paradox of Choice, can cause boredom when decision fatigue and FOMO (Fear of Missing Out) kick in. Limiting your options can help overcome this, and that is the purpose of this website! Just choose a category and an activity will be randomly selected for you, making it easy to enjoy a fun new experience!
         </p>
       </div>
+      <h2>Choose a Category</h2>
       <div className="box-row pb-3">
         {data.categories.map((cat, i) => (
           <Category data={cat} key={i} />
@@ -24,7 +25,7 @@ function App() {
       </div>
       <div className="box-row pb-3">
         <div>
-          <h4 style={{paddingLeft:'5%'}}>Dumb Game of the Day</h4>
+          <h4 style={{paddingLeft:'5%'}}>Random Mini Game</h4>
           <Games games={data.games} />
         </div>
       </div>

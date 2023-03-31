@@ -1,8 +1,21 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
-import activities from './activities.json'
+import data from './activities.json'
+import Activity from "./Activity";
 
 function Category(props) {
+  const [option, setOption] = useState('')
+  const keyword = props.data.type
+
+  const getActivities = () => {
+    const filter = data.activities.filter(a => a.type === keyword && a.link !== '')
+    const idx = Math.round(Math.random() * filter.length)
+    console.log(idx)
+    console.log(filter[idx])
+    setOption(filter[idx])
+  }
+
   return (
     <Box className="box box-2">
       <div className="box-header">
@@ -10,8 +23,10 @@ function Category(props) {
       </div>
       <div className="box-content pb-2">
        <p>{props.data.subtitle}</p>
-       <button>Find Activities</button>
+       <button onClick={getActivities}>Find Activities</button>
       </div>
+      {option && <Activity act={option} />
+      }
     </Box>
   );
 }

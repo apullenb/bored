@@ -99,7 +99,7 @@
         {
             "activity": "Volunteer at a local animal shelter",
             "availability": 0.5,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.1,
             "accessibility": "Minor challenges",
@@ -483,7 +483,7 @@
         {
             "activity": "Find a charity and donate to it",
             "availability": 0.1,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.4,
             "accessibility": "Few to no challenges",
@@ -507,7 +507,7 @@
         {
             "activity": "Donate blood at a local blood center",
             "availability": 0.35,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.0,
             "accessibility": "Minor challenges",
@@ -519,7 +519,7 @@
         {
             "activity": "Volunteer and help out at a senior center",
             "availability": 0.1,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.0,
             "accessibility": "Few to no challenges",
@@ -579,7 +579,7 @@
         {
             "activity": "Volunteer at your local food bank",
             "availability": 0.1,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.0,
             "accessibility": "Few to no challenges",
@@ -639,7 +639,7 @@
         {
             "activity": "Clean out your closet and donate the clothes you've outgrown",
             "availability": 0.1,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.0,
             "accessibility": "Few to no challenges",
@@ -747,7 +747,7 @@
         {
             "activity": "Pick up litter around your favorite park",
             "availability": 0.05,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.0,
             "accessibility": "Minor challenges",
@@ -1359,7 +1359,7 @@
         {
             "activity": "Volunteer at your local food pantry",
             "availability": 0.1,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.0,
             "accessibility": "Few to no challenges",
@@ -1839,7 +1839,7 @@
         {
             "activity": "Contribute code or a monetary donation to an open-source software project",
             "availability": 0.0,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.1,
             "accessibility": "Few to no challenges",
@@ -2091,7 +2091,7 @@
         {
             "activity": "Mow your neighbor's lawn",
             "availability": 0.2,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.0,
             "accessibility": "Minor challenges",
@@ -2319,7 +2319,7 @@
         {
             "activity": "Donate to your local food bank",
             "availability": 0.8,
-            "type": "charity",
+            "type": "social",
             "participants": 1,
             "price": 0.5,
             "accessibility": "Few to no challenges",
