@@ -2,6 +2,7 @@ import data from "./data.json";
 import "./App.css";
 import Games from "./Games";
 import Category from "./Category";
+import NumberGame from "./NumberGame";
 
 function App() {
   //  "https://www.boredapi.com/api/",
@@ -11,6 +12,7 @@ function App() {
         <h1>Productively Bored</h1>
         <h2>Your Time Well Wasted</h2>
       </div>
+      <NumberGame />
       <div className="content mt-4 pb-4">
         <h5>Boredom & The Paradox of Choice</h5>
         <p>
