@@ -7,12 +7,11 @@ import Activity from "./Activity";
 function Category(props) {
   const [option, setOption] = useState('')
   const keyword = props.data.type
-
   const getActivities = () => {
-    const filter = data.activities.filter(a => a.type === keyword && a.link !== '')
+    const filter = data.activities.filter(a => a.type === keyword)
     const idx = Math.round(Math.random() * filter.length)
-    console.log(idx)
-    console.log(filter[idx])
+    console.log(idx, filter)
+    // console.log(filter[idx])
     setOption(filter[idx])
   }
 
